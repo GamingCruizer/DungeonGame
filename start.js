@@ -13,7 +13,7 @@ document.body.innerHTML += `<html>
     <div class="container">
       <h1>Whilly Wonka Game</h1>
       <p>Whilly Wonka Count: <span id="clickCount">0</span></p>
-      <button id="clickButton">Click Whilly Wonka HERE!</button>
+      <button id="clickButton" onclick='c()'>Click Whilly Wonka HERE!</button>
     </div>
   </body>
 
@@ -51,10 +51,9 @@ document.body.innerHTML += `<html>
 
   <script>
     let clickCount = 0;
-    const clickButton = document.getElementById("clickButton");
     const clickCountDisplay = document.getElementById("clickCount");
 
-    clickButton.addEventListener("click", () => {
+    const c = () => {
       clickCount++;
       clickCountDisplay.innerHTML = clickCount;
     });
