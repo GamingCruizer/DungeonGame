@@ -50,7 +50,7 @@ document.body.innerHTML += `<html>
 
     clickButton.addEventListener("click", () => {
       clickCount++;
-      clickCountDisplay.textContent = clickCount;
+      clickCountDisplay.innerHTML = clickCount;
     });
   </script>
   
