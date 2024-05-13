@@ -9,19 +9,7 @@ document.body.innerHTML += `<html>
   </head>
   
   <body>
-    <div id="version">V0.0.02</div>
-    <div class="container">
-      <h1>Whilly Wonka Game</h1>
-      <p>Whilly Wonka Count: <span id="clickCount">0</span></p>
-      <button id="clickButton" onclick='c()'>Click Whilly Wonka HERE!</button>
-    </div>
-    <script>
-      const c = document.getElementById('clickCount'), b = document.getElementById('clickButton');
-      let a = 0;
-      b.addEventListener('click', e => {
-        c.innerHTML = ++a;
-      });
-    </script>
+    
   </body>
 
   <style>
@@ -30,31 +18,10 @@ document.body.innerHTML += `<html>
     background-color: #f0f0f0;
     text-align: center;
     }
-    .container {
-      margin-top: 50px;
-    }
-    h1 {
-      color: #333;
-    }
-    button {
-      padding: 10px 20px;
-      font-size: 18px;
-      background-color: #4caf50;
-      color: #fff;
-      border: none;
-      cursor: pointer;
-      border-radius: 5px;
-      transition: background-color: 0.3s ease;
-    }
-    button:hover {
-      background-color: #45a049;
-    }
-    #version {
-      position: absolute;
-      top: 5px;;
-      right: 5px;
-    }
   </style>
+
+  <script>
+  </script>
   
   </html>
 </html>`;
