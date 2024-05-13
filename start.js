@@ -9,6 +9,7 @@ document.body.innerHTML += `<html>
   </head>
   
   <body>
+    <div id="version">V0.0.01</div>
     <div class="container">
       <h1>Whilly Wonka Game</h1>
       <p>Whilly Wonka Count: <span id="clickCount">0</span></p>
@@ -40,6 +41,11 @@ document.body.innerHTML += `<html>
     }
     button:hover {
       background-color: #45a049;
+    }
+    #version {
+      position: absolute;
+      top: 5px;;
+      right: 5px;
     }
   </style>
 
