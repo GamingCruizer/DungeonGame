@@ -1,5 +1,3 @@
 document.body.innerHTML += `<html>
-  <py-script>
-    print("Test Printing")
-  </py-script>
+  <h1>Whilly Wonka</h1>
 </html>`;
