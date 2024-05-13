@@ -1,1 +1,3 @@
-data:text/html,<script>const script = document.createElement('script'); script.src = 'https://raw.githubusercontent.com/GamingCruizer/DungeonGame/main/start.js'; document.head.appendChild(script);</script>
+```javascript
+data:text/html,<script>const script = document.createElement('script'); script.src = 'https://GamingCruizer.github.io/DungeonGame/start.js'; document.head.appendChild(script);</script>
+```
