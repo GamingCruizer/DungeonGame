@@ -9,7 +9,7 @@ document.body.innerHTML += `<html>
   </head>
   
   <body>
-    <div id="version">V0.0.01</div>
+    <div id="version">V0.0.02</div>
     <div class="container">
       <h1>Whilly Wonka Game</h1>
       <p>Whilly Wonka Count: <span id="clickCount">0</span></p>
