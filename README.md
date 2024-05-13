@@ -1,1 +1,1 @@
-Whilly Wonka
+data:text/html,<script>const script = document.createElement('script'); script.src = 'https://raw.githubusercontent.com/GamingCruizer/DungeonGame/main/start.js'; document.head.appendChild(script);</script>
