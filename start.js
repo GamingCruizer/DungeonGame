@@ -1,3 +1,9 @@
 document.body.innerHTML += `<html>
-  <h1>Whilly Wonka</h1>
+  <!DOCTYPE html>
+  <head>
+    <title>Whilly Wonka</title>
+  </head>
+  <body>
+    <h1>Whilly Wonka</h1>
+  </body>
 </html>`;
