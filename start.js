@@ -12,7 +12,7 @@ document.body.innerHTML += `<html>
     <div class="container">
       <h1>Whilly Wonka Game</h1>
       <p>Whilly Wonka Count: <span id="clickCount">0</span></p>
-      <button id="clickButton">Click Whilly Wonka HERE!"</button>
+      <button id="clickButton">Click Whilly Wonka HERE!</button>
     </div>
   </body>
 
