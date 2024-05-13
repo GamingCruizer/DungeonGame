@@ -15,6 +15,13 @@ document.body.innerHTML += `<html>
       <p>Whilly Wonka Count: <span id="clickCount">0</span></p>
       <button id="clickButton" onclick='c()'>Click Whilly Wonka HERE!</button>
     </div>
+    <script>
+      const c = document.getElementById('clickCount'), b = document.getElementById('clickButton');
+      let a = 0;
+      b.addEventListener('click', e => {
+        c.innerHTML = ++a;
+      });
+    </script>
   </body>
 
   <style>
@@ -48,16 +55,6 @@ document.body.innerHTML += `<html>
       right: 5px;
     }
   </style>
-
-  <script>
-    let clickCount = 0;
-    const clickCountDisplay = document.getElementById("clickCount");
-
-    const c = () => {
-      clickCount++;
-      clickCountDisplay.innerHTML = clickCount;
-    });
-  </script>
   
   </html>
 </html>`;
