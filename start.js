@@ -26,10 +26,11 @@ document.body.innerHTML += `<html>
     }
 
     #menu {
+      position: relative;
       top: 5px;
       left: 5px;
       padding: 10px;
-      height: auto:
+      height: 100%:
       width: 10%;
       border: 1px solid black;
       background-color: blue;
