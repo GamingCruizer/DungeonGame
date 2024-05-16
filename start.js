@@ -25,7 +25,7 @@ document.body.innerHTML += `<html>
       text-align: center;
     }
 
-    .menu {
+    #menu {
       top: 5px;
       left: 5px;
       padding: 10px;
