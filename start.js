@@ -26,7 +26,7 @@ document.body.innerHTML += `<html>
     }
 
     #menu {
-      position: relative;
+      position: absolute;
       top: 5px;
       left: 5px;
       padding: 10px;
